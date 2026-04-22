@@ -1,25 +1,14 @@
-import java.util. Scanner;
-public class latihan1{
-    public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
-        String Nama; String Nim; String tempatTinggal; int usia;
-        
-        System.out.print("Input nama: ");
-        Nama=input.nextLine();
-
-        System.out.print("Input usia: ");
-        usia=input.nextInt();
-        input.nextLine();
-
-        System.out.print("Input nim: ");
-        Nim=input.nextLine();
-
-        System.out.print("Input tempat tinggal: ");
-        tempatTinggal=input.nextLine();
-
-        System.out.print("Nama "+ Nama);
-        System.out.print(" Usia "+ usia +" tahun ");
-        System.out.print("nim "+ Nim );
-        System.out.print(" tempat tinggal "+ tempatTinggal);
-    }
+import java.util.Scanner;
+public class latihan1 {
+    public static void main(String args []){
+        Scanner input = new Scanner (System.in);
+        String nama; int usia;
+        System.out.print("input nama: ");
+        nama = input.nextLine();
+        System.out.print("input usia: ");
+        usia = input.nextInt();
+        System.out.print("nama: " + nama);
+        System.out.print("usia: " + usia);
+        input.close();
+    }    
 }
